@@ -1,0 +1,49 @@
+{
+  "gates": [
+    {
+      "type": "CNOT",
+      "control": 0,
+      "target": 1,
+      "x": 0
+    },
+    {
+      "type": "CNOT",
+      "control": 3,
+      "target": 2,
+      "x": 0
+    },
+    {
+      "type": "CNOT",
+      "control": 0,
+      "target": 3
+    },
+    {
+      "type": "NOT",
+      "target": 0
+    },
+    {
+      "type": "H",
+      "target": 1
+    },
+    {
+      "type": "S",
+      "target": 2
+    },
+    {
+      "type": "T",
+      "target": 3
+    },
+    {
+      "type": "PC",
+      "measurement": [
+        0,
+        "Z"
+      ],
+      "correction": [
+        1,
+        "X"
+      ],
+      "edge_color": "r"
+    }
+  ]
+}
